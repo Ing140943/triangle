@@ -32,11 +32,11 @@ Use code coverage to find untested code and a problem with the tests.
    ```
 
 7. What lines in the **unit test code** were not executed?     
-   Write the Line Numbers: [    38,39,40,41              ]
+   Write the Line Numbers: [   32, 33, 34, 35, 36, 37              ]
 
 8. Normally, **all** the lines of test code should be executed.  When some part of test code is not executed it may indicate a problem with the tests.  Explain the problem in the unit test code. (write you answer below).
 
-   Answer: It is not raise the error so the rest of line not execute
+   Answer: If it detects some fail test case it will stop running the rest of the test.
 
 
 
